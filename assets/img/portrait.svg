@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <!-- Placeholder portrait — replace with your own photo (assets/img/portrait.jpg) and update content.js -->
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1.2" fill="#2A3442"/></pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121821" stop-opacity="0"/><stop offset="1" stop-color="#121821"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".42" r=".5"><stop offset="0" stop-color="#3DDC84" stop-opacity=".16"/><stop offset="1" stop-color="#3DDC84" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="#121821"/>
+  <rect width="800" height="1000" fill="url(#dots)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <!-- silhouette -->
+  <circle cx="400" cy="400" r="130" fill="#1C2430" stroke="#2A3442" stroke-width="2"/>
+  <path d="M150 1000 C150 760 260 600 400 600 C540 600 650 760 650 1000Z" fill="#1C2430" stroke="#2A3442" stroke-width="2"/>
+  <rect width="800" height="1000" fill="url(#fade)" opacity=".6"/>
+  <text x="400" y="420" fill="#3DDC84" font-family="JetBrains Mono, Consolas, monospace" font-size="56" font-weight="700" text-anchor="middle">&lt;/&gt;</text>
+  <text x="400" y="140" fill="#6B7686" font-family="JetBrains Mono, Consolas, monospace" font-size="22" text-anchor="middle">// your photo here · 4:5</text>
+</svg>

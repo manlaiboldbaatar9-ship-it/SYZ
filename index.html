@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ── SEO ─────────────────────────────────────────────────────────
+       Link previews (Instagram, Facebook, Messenger, Telegram) are read
+       from these tags, so update the URL + text here when you deploy. -->
+  <title>syz — Вэб хөгжүүлэгч · Улаанбаатар</title>
+  <meta name="description" content="Бизнесийн вэбсайт, landing page, онлайн дэлгүүр, вэб апп хийдэг Улаанбаатарын вэб хөгжүүлэгч." />
+  <meta name="author" content="syz" />
+  <meta name="theme-color" content="#0B0F14" />
+  <meta name="color-scheme" content="dark" />
+  <link rel="canonical" href="https://syz.mn/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="syz" />
+  <meta property="og:url" content="https://syz.mn/" />
+  <meta property="og:title" content="syz — Web Developer · Ulaanbaatar" />
+  <meta property="og:description" content="I build websites that work for your business. Landing pages, business websites, e-commerce and web apps." />
+  <meta property="og:image" content="https://syz.mn/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="syz — I build websites that work for your business." />
+  <meta property="og:locale" content="mn_MN" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="syz — Web Developer · Ulaanbaatar" />
+  <meta name="twitter:description" content="I build websites that work for your business." />
+  <meta name="twitter:image" content="https://syz.mn/assets/og-image.png" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700;800&display=swap" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "syz",
+    "description": "Freelance web developer building business websites, landing pages, e-commerce and web apps.",
+    "url": "https://syz.mn/",
+    "image": "https://syz.mn/assets/og-image.png",
+    "areaServed": "MN",
+    "address": { "@type": "PostalAddress", "addressLocality": "Ulaanbaatar", "addressCountry": "MN" }
+  }
+  </script>
+
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="ui.skip">Үндсэн агуулга руу шилжих</a>
+
+  <!-- ── Navbar ───────────────────────────────────────────────────── -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a class="logo" href="#top" aria-label="syz — home">
+        <span class="logo__br">&lt;</span>syz<span class="logo__br">/&gt;</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary" id="nav-links"></nav>
+
+      <div class="nav__right">
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" class="lang__btn" data-lang="mn" aria-pressed="true">MN</button>
+          <button type="button" class="lang__btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn--sm btn--primary nav__cta" href="#contact" data-i18n="ui.navCta" data-magnetic></a>
+        <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="burger__line"></span><span class="burger__line"></span>
+          <span class="sr-only" data-i18n="ui.menu">Цэс</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav class="mobile-menu__links" aria-label="Mobile" id="mobile-links"></nav>
+    <div class="mobile-menu__foot" id="mobile-foot"></div>
+  </div>
+
+  <main id="main">
+    <!-- ── 1. Hero ──────────────────────────────────────────────── -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero__grid" id="hero"></div>
+      <div class="hero__scroll" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ── 2. Work ──────────────────────────────────────────────── -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container" id="work-inner"></div>
+    </section>
+
+    <!-- ── 3. Services ──────────────────────────────────────────── -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container" id="services-inner"></div>
+    </section>
+
+    <!-- ── 4. Process ───────────────────────────────────────────── -->
+    <section class="section" id="process" aria-labelledby="process-title">
+      <div class="container" id="process-inner"></div>
+    </section>
+
+    <!-- ── 5. About ─────────────────────────────────────────────── -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container" id="about-inner"></div>
+    </section>
+
+    <!-- ── 6. Testimonials ──────────────────────────────────────── -->
+    <section class="section" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container" id="testimonials-inner"></div>
+    </section>
+
+    <!-- ── 7. Contact ───────────────────────────────────────────── -->
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="container" id="contact-inner"></div>
+    </section>
+  </main>
+
+  <!-- ── 8. Footer ────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner" id="footer"></div>
+  </footer>
+
+  <div class="cursor" aria-hidden="true"><div class="cursor__dot"></div><div class="cursor__ring"></div></div>
+
+  <noscript>
+    <p style="padding:2rem;text-align:center">syz — Web Developer, Ulaanbaatar. Email: syzbuilds@gmail.com</p>
+  </noscript>
+
+  <script src="content.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
