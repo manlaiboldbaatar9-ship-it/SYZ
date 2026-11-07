@@ -47,7 +47,7 @@ If you want messages delivered to your inbox directly:
 
 ## Before you deploy: update the SEO tags
 
-Link previews on Instagram, Facebook and Telegram don't run JavaScript. They read the `<head>` of **`index.html`** directly. Replace `https://syz.mn/` with your real domain in:
+Link previews on Instagram, Facebook and Telegram don't run JavaScript. They read the `<head>` of **`index.html`** directly. If you add a custom domain, replace `https://syz-builds.vercel.app/` with it in:
 
 - `<link rel="canonical">`
 - `og:url`, `og:image`, `twitter:image`
