@@ -135,7 +135,7 @@ window.SITE = {
         { mn: "Холбоо барих форм", en: "Contact / lead form" },
         { mn: "3–5 хоног", en: "3–5 days" },
       ],
-      price: 500000, // TODO: your price in ₮
+      price: 250000,
     },
     {
       code: "02",
@@ -149,7 +149,7 @@ window.SITE = {
         { mn: "Контент удирдах систем", en: "Editable content (CMS)" },
         { mn: "1–2 долоо хоног", en: "1–2 weeks" },
       ],
-      price: 1200000, // TODO
+      price: 500000,
     },
     {
       code: "03",
@@ -163,7 +163,7 @@ window.SITE = {
         { mn: "Захиалгын самбар", en: "Order dashboard" },
         { mn: "2–3 долоо хоног", en: "2–3 weeks" },
       ],
-      price: 2500000, // TODO
+      price: 750000,
     },
     {
       code: "04",
@@ -177,7 +177,7 @@ window.SITE = {
         { mn: "Mobile-first дизайн", en: "Mobile-first design" },
         { mn: "1 долоо хоног", en: "1 week" },
       ],
-      price: 700000, // TODO
+      price: 500000,
     },
   ],
 
